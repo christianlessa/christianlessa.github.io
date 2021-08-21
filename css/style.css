@@ -1,0 +1,89 @@
+.hero {
+    position: fixed;
+    top: 10%;
+    bottom: 15%;
+    left: 0;
+    height: 80%;
+    width: 30%;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.header-photo {
+    background-image: url('images/fundo.perfil.jpg');
+    background-size: cover;
+    background-position: 50% 25%;
+    padding: 60px 30px 40px 30px;
+    border-radius: 5%;
+    
+}
+
+.container {
+    width: 68%;
+    margin-left: 30%;
+}
+
+.body-photo {
+    background-image: url('images/fundo-pagina.jpg');
+    background: cover;
+    padding: 10px;
+}
+
+.network {
+    margin-top: 100px;
+}
+
+
+h2, li, p {
+  color:ghostwhite;
+}
+
+.font-name {
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 40px;
+color: #00f5d4;
+}
+
+.font-description {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #00f5d4;
+  font-size: 15px;
+}
+
+.button {
+text-align: center;
+padding: 10px 20px;
+background-color: #2fc18c;
+color:ghostwhite;
+border-radius: 10px;
+text-decoration: none;
+}
+
+.number-button {
+  text-align: center;
+  background-color: lawngreen;
+  text-decoration: none;
+  line-height: 2;
+  padding: 5px 5px;
+  border-radius: 50%;
+}
+
+
+
+.photo-perfil {
+    border-radius: 50%;
+    background-position: 50% 25;
+}
+
+
+body {
+  background-color: #343a40
+ 
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 7%;
+}
