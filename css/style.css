@@ -23,6 +23,20 @@
     margin-left: 30%;
 }
 
+.background-habilidades {
+  background-color:orange;
+  border-radius: 50px;
+  margin: 10px;
+  text-align: center;
+}
+
+.background-portfolio {
+  background-color: orangered;
+  border-radius: 50px;
+  margin: 10px;
+  text-align: center;
+}
+
 .body-photo {
     background-image: url('images/fundo-pagina.jpg');
     background: cover;
@@ -68,11 +82,14 @@ text-decoration: none;
   border-radius: 50%;
 }
 
-
-
 .photo-perfil {
     border-radius: 50%;
     background-position: 50% 25;
+}
+
+.texto-random-top {
+  background-image: url(./images/cachoro.gif);
+  text-align: center;
 }
 
 
