@@ -18,6 +18,11 @@
     
 }
 
+.full-container {
+  overflow: auto;
+  margin-left: 70px;
+}
+
 .container {
     width: 68%;
     margin-left: 30%;
@@ -26,14 +31,14 @@
 .background-habilidades {
   background-color:orange;
   border-radius: 50px;
-  margin: 10px;
+  margin: 10px 10px;
   text-align: center;
 }
 
 .background-portfolio {
   background-color: orangered;
   border-radius: 50px;
-  margin: 10px;
+  margin: 10px 10px;
   text-align: center;
 }
 
@@ -41,6 +46,7 @@
     background-image: url('images/fundo-pagina.jpg');
     background: cover;
     padding: 10px;
+    
 }
 
 .network {
