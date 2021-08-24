@@ -21,32 +21,49 @@
 .full-container {
   overflow: auto;
   margin-left: 70px;
+  width: 68%;
+  margin-left: 30%;
+  overflow: auto;
 }
 
-.container {
-    width: 68%;
-    margin-left: 30%;
+.habilidades {
+  background-color:darkred;
+  padding: 10px;
+  display: flex;
+  border-radius: 10%;
+  margin: 25px 50px;
 }
 
-.background-habilidades {
-  background-color:orange;
-  border-radius: 50px;
-  margin: 10px 10px;
-  text-align: center;
+.text-habilidades {
+ padding: 30px 150px 30px 300px;
 }
 
-.background-portfolio {
-  background-color: orangered;
-  border-radius: 50px;
-  margin: 10px 10px;
-  text-align: center;
+.gif-habilidades {
+  padding: 30px;
+}
+
+.portfolio {
+  background-color: rgb(22, 107, 1);
+  padding: 30px;
+  display: flex;
+  border-radius: 10%;
+  margin: 25px 50px;
+}
+
+.text-portfolio {
+  padding: 30px 150px 30px 300px;
+}
+
+.gif-portfolio {
+  padding: 30px;
+  padding-left: 75px;
 }
 
 .body-photo {
     background-image: url('images/fundo-pagina.jpg');
-    background: cover;
     padding: 10px;
-    
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .network {
@@ -56,6 +73,7 @@
 
 h2, li, p {
   color:ghostwhite;
+  font-family:'poppins';
 }
 
 .font-name {
@@ -96,6 +114,8 @@ text-decoration: none;
 .texto-random-top {
   background-image: url(./images/cachoro.gif);
   text-align: center;
+  background-size: 100%;
+  border-radius: 20%;
 }
 
 
